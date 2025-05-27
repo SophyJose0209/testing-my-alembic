@@ -1,6 +1,7 @@
 from backend.core.db import Base
 from sqlalchemy import Column, Integer, String
 
+# Creating a TestModel class that inherits from Base
 class TestModel(Base):
     __tablename__ = "test_model"
 
